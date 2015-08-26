@@ -6,3 +6,15 @@ for(var i=0; i<arr.length; i++){
    }
 }
 ```
+
+```
+$.get("https://api.github.com/users/RoseTHERESA", function(){
+       console.log(response)
+})
+
+
+$.get("https://omdbapi.com/?i=tt1392190",function(response){
+       console.log(response)
+})
+
+```
